@@ -1,0 +1,114 @@
+.foot {
+  margin-top: 70px;
+}
+.foot .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.foot .container .col-md-12 {
+  border-top: 1px solid $light-gray;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Proxima-Nova";
+  font-weight: 600;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 3;
+}
+@media (max-width: 578px) {
+  .foot .container .col-md-12 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.foot .container .col-md-12 .left {
+  padding-left: 27px;
+}
+.foot .container .col-md-12 .left .active {
+  color: $green;
+}
+.foot .container .col-md-12 .left span:first-child {
+  margin: 0 25px;
+}
+.foot .container .col-md-12 .left span {
+  cursor: pointer;
+}
+.foot .container .col-md-12 .right {
+  margin: 0;
+  padding: 12px 25px;
+  color: $green;
+  border-left: 1px solid $light-gray;
+}
+.foot .container .col-md-12 .right p {
+  cursor: pointer;
+}
+.foot .container .col-md-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  border-top: 1px solid $light-gray;
+}
+@media (max-width: 578px) {
+  .foot .container .col-md-7 {
+    display: block;
+  }
+}
+.foot .container .col-md-7 .col-md-6 > a:hover {
+  text-decoration: underline;
+}
+.foot .container .col-md-7 .prev-post {
+  text-align: right;
+  padding-right: 29px;
+  border-right: 1px solid $light-gray;
+  margin-left: 138px;
+}
+@media (max-width: 950px) {
+  .foot .container .col-md-7 .prev-post {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 578px) {
+  .foot .container .col-md-7 .prev-post {
+    padding: 0 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+.foot .container .col-md-7 .next-post {
+  text-align: left;
+  padding-left: 29px;
+  margin-right: 138px;
+}
+@media (max-width: 950px) {
+  .foot .container .col-md-7 .next-post {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 578px) {
+  .foot .container .col-md-7 .next-post {
+    padding: 0 10px;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+.foot .container .col-md-7 h6 {
+  color: $green;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Proxima-Nova";
+}
+.foot .container .col-md-7 a {
+  font-size: 20px;
+  font-weight: 100;
+}
+.foot .container .col-md-7 a:visited {
+  color: #000;
+}

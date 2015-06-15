@@ -1,0 +1,26 @@
+.nav {
+  background-color: $light-gray;
+  width: 100%;
+}
+.nav .container {
+  padding-top: 21px;
+  padding-bottom: 51px;
+}
+.nav .container .left img {
+  vertical-align: middle;
+}
+.nav .container .right {
+  vertical-align: middle;
+}
+.nav .container .right .btn {
+  color: #a4b1ba;
+  border: 2px solid #a4b1ba;
+  font-size: 16px;
+}
+.nav .container .right .btn:hover {
+  background-color: #a4b1ba;
+  color: $light-gray;
+  -webkit-transition: all 0.5s ease-in 50ms;
+          transition: all 0.5s ease-in 50ms;
+  border-color: $light-gray;
+}
